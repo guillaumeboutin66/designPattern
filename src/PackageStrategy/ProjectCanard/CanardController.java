@@ -1,8 +1,8 @@
-package PackageStrategy;
+package PackageStrategy.ProjectCanard;
 
-import PackageStrategy.ListCanard.CanardEnBois;
-import PackageStrategy.ListCanard.Colvert;
-import PackageStrategy.ListCanard.Morillon;
+import PackageStrategy.ProjectCanard.ListCanard.CanardEnBois;
+import PackageStrategy.ProjectCanard.ListCanard.Colvert;
+import PackageStrategy.ProjectCanard.ListCanard.Morillon;
 
 import java.util.ArrayList;
 import java.util.List;

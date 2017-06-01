@@ -1,6 +1,6 @@
-package PackageStrategy.ListTypeVol;
+package PackageStrategy.ProjectCanard.ListTypeVol;
 
-import PackageStrategy.Vol;
+import PackageStrategy.ProjectCanard.Vol;
 
 /**
  * Created by guillaumeboutin on 01/06/2017.

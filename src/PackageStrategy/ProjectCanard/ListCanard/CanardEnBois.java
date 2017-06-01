@@ -1,7 +1,7 @@
-package PackageStrategy.ListCanard;
+package PackageStrategy.ProjectCanard.ListCanard;
 
-import PackageStrategy.Canard;
-import PackageStrategy.ListTypeVol.NoVol;
+import PackageStrategy.ProjectCanard.Canard;
+import PackageStrategy.ProjectCanard.ListTypeVol.NoVol;
 
 /**
  * Created by guillaumeboutin on 01/06/2017.

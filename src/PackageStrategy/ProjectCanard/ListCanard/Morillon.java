@@ -1,7 +1,7 @@
-package PackageStrategy.ListCanard;
+package PackageStrategy.ProjectCanard.ListCanard;
 
-import PackageStrategy.Canard;
-import PackageStrategy.ListTypeVol.VolAvecDesAiles;
+import PackageStrategy.ProjectCanard.Canard;
+import PackageStrategy.ProjectCanard.ListTypeVol.VolAvecDesAiles;
 
 /**
  * Created by guillaumeboutin on 01/06/2017.

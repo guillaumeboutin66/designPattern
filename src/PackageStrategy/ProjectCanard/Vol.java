@@ -1,4 +1,4 @@
-package PackageStrategy;
+package PackageStrategy.ProjectCanard;
 
 /**
  * Created by guillaumeboutin on 01/06/2017.
