@@ -1,4 +1,4 @@
-package PackageStrategy.ProjectCanard.ListCanard;
+package PackageStrategy.ProjectCanard.ListOiseau;
 
 import PackageStrategy.ProjectCanard.Canard;
 import PackageStrategy.ProjectCanard.ListTypeVol.VolAvecDesAiles;

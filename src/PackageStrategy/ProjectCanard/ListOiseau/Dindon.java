@@ -1,4 +1,4 @@
-package PackageStrategy.ProjectCanard.ListCanard;
+package PackageStrategy.ProjectCanard.ListOiseau;
 
 import PackageStrategy.ProjectCanard.Canard;
 import PackageStrategy.ProjectCanard.ListTypeVol.NoVol;
@@ -6,16 +6,16 @@ import PackageStrategy.ProjectCanard.ListTypeVol.NoVol;
 /**
  * Created by guillaumeboutin on 01/06/2017.
  */
-public class CanardEnBois extends Canard{
+public class Dindon extends Canard{
 
-    public CanardEnBois(){
+    public Dindon(){
         setMaFaconDeVoler(new NoVol());
     }
 
 
     @Override
     public void afficheToi() {
-        System.err.println("Je suis un CDEB");
+        System.err.println("Je suis un Dindon");
 
     }
 }
