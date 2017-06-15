@@ -7,6 +7,7 @@ public class Logger_Console extends Logger {
     private Formater formater;
 
     public Logger_Console(Formater f){
+        super(f);
         formater = f;
     }
 
