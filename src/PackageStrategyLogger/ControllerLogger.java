@@ -10,11 +10,9 @@ public class ControllerLogger {
      * @param args
      */
     public static void main(String[] args){
-        Logger logXml = new Logger_Console(new Formater_XML());
-        logXml.write("Mon log XML");
-
-
-        Logger logHtml = new Logger_Console(new Formater_HTML());
-        logHtml.write("Mon log HTML");
+        Logger log = new Logger_Console(new Formater_XML());
+        log.write("Mon log XML");
+        log.setFormater(new Formater_HTML());
+        log.write("Mon log HTML");
     }
 }

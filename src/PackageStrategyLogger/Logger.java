@@ -10,6 +10,13 @@ public abstract class Logger {
         formater = f;
     }
 
-
     abstract void write(String s);
+
+    public Formater getFormater() {
+        return formater;
+    }
+
+    public void setFormater(Formater formater) {
+        this.formater = formater;
+    }
 }
