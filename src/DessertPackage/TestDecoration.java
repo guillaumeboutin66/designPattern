@@ -17,9 +17,11 @@ public class TestDecoration {
         Dessert gauffre = new Gauffre();
         gauffre = (new Chocolat(gauffre)).getDessert();
 
-        if(gauffre.getNomDessert().equals("Dessert : Gauffre, Chocolats")){
+        if(gauffre.getNomDessert().equals("Gauffre, Chocolat")){
             return true;
         }else{
+            System.out.println(gauffre.getNomDessert());
+            System.out.println("Gauffre, Chocolats");
             throw new Error("String not equals");
         }
     }
